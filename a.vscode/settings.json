@@ -1,0 +1,24 @@
+{
+  "emmet.includeLanguages": {
+    "html": "html",
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": 3
+    }
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "editor.snippetSuggestions": "top",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "files.associations": {
+    "*.html": "html"
+  }
+}
