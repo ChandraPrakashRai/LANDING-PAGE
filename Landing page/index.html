@@ -3,92 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Landing Page</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
-    }
-
-    /* Navbar */
-    header {
-      background: #4CAF50;
-      color: white;
-      padding: 15px 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    header h1 {
-      margin: 0;
-    }
-    nav a {
-      color: white;
-      margin: 0 10px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    /* Hero Section */
-    .hero {
-      text-align: center;
-      padding: 80px 20px;
-      background: linear-gradient(to right, #4CAF50, #2E7D32);
-      color: white;
-    }
-    .hero h2 {
-      font-size: 2.5em;
-      margin-bottom: 20px;
-    }
-    .hero p {
-      font-size: 1.2em;
-      margin-bottom: 30px;
-    }
-    .btn {
-      background: white;
-      color: #4CAF50;
-      padding: 12px 25px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    .btn:hover {
-      background: #f1f1f1;
-    }
-
-    /* Features */
-    .features {
-      display: flex;
-      justify-content: space-around;
-      padding: 50px 20px;
-      background: #fff;
-    }
-    .feature {
-      max-width: 250px;
-      text-align: center;
-    }
-    .feature h3 {
-      color: #4CAF50;
-    }
-
-    /* Footer */
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #333;
-      color: white;
-    }
-  </style>
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navbar -->
   <header>
-    <h1>MyBrand</h1>
+    <div class="logo">MyBrand</div>
     <nav>
       <a href="#features">Features</a>
       <a href="#about">About</a>
@@ -98,12 +19,14 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <h2>Welcome to My Landing Page</h2>
-    <p>A simple and clean page to showcase your product or service.</p>
-    <a href="#contact" class="btn">Get Started</a>
+    <div class="hero-content">
+      <h1>Welcome to My Landing Page</h1>
+      <p>A simple and clean page to showcase your product or service.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </div>
   </section>
 
-  <!-- Features -->
+  <!-- Features Section -->
   <section class="features" id="features">
     <div class="feature">
       <h3>🚀 Fast</h3>
@@ -120,7 +43,7 @@
   </section>
 
   <!-- Footer -->
-  <footer>
+  <footer id="contact">
     <p>&copy; 2025 MyBrand. All Rights Reserved.</p>
   </footer>
 </body>
